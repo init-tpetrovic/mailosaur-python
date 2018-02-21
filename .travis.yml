@@ -6,7 +6,7 @@ python:
 script: nosetests
 env:
   global:
-  - secure: "ZOuD5PhRCqnKm+qTL6Cwd6RqtpneMVaSqx0lvNn9TvyZV9KP4YM67r/mVCQVNI6zlfvUdftPO5PxevHkwOKR+IlPCTNWPwR5S//JliE3QbNoHGXKeacrGgJdF04Vk+7E8ToTmzPCq29oJkOxU1WJ9SH/+i96NHGljWLPF+lB664="
+  - secure: "PMFZtNFno1DogbBNhUZyG70xuThR7V7WL+4wW8WAEnU0ybnxPMG2nv8aatxttUEgtUrFdGC+H7Pw6gaf/6U2Ee31mFehsxhNvEIYfm7pinORzO6wseX8K5qRN5V6TF0EzgF9n20P2l516kjz8iPmrn+ElmeRVvxoSeyAnpat7J4="
   matrix:
   - MAILOSAUR_BASE_URL=https://mailosaur.com/api/ MAILOSAUR_SMTP_HOST=mailosaur.io
   - MAILOSAUR_BASE_URL=https://next.mailosaur.com/api/ MAILOSAUR_SMTP_HOST=ms-smtp.uk
